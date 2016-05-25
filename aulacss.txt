@@ -1,0 +1,236 @@
+http://v4-alpha.getbootstrap.com/examples/starter-template/#
+
+Curso de CSS3 - Aula 20 - Border e Outline
+Node Studio Treinamentos
+Layout Simples
+Layouts resposivo
+Folhas estilo em cascata
+========================
+
+natag
+
+Style="color:red"
+
+========================
+
+na head
+
+<style>
+seletor{propiedade:valor}
+
+h1{color:green;font-size:40px;}
+
+===========================
+
+arquivo externo
+
+style.css
+<link rel="styledhhet" href="css/style.css"
+===========================
+seletores
+* todos
+*{margin:0;padding:0;}
+/* comentario*/
+
+agrupar seletor
+h1,h2,p{color:red}
+
+Id e class
+
+.texto-principal{color:red;tet-align:center}
+
+#conteudo{background-color}
+
+id é unico e classe para varios
+
+<div id="conteudo">
+
+ipson lorem
+</div>
+
+
+<p class="texto-principal">
+</p>
+<form>
+Nome:<br>
+<input type="text" name="nome"><br>
+eMail:
+<input type="e-mail" name="email"><br>
+<input type="submit" value "enviar">
+
+<form>
+=================================
+No css:
+input[type="text"]{width:200px;bacground-color:#ccc;border:none}
+input[type="text"]{width:200px;bacground-color:#ccc;border:none}
+==================================
+propriedades:
+#conteudo{
+backgroundcolor:red;
+width:500px;
+height:20px;
+color:#fff;}
+
+
+width:80%
+min-width:500 px;
+max-width:500 px;
+
+padding: esaço interno na div
+
+padding-top:10px;
+padding-botton:10px;
+padding-left:10px;
+padding-right:10px;
+
+separar de outras div
+margim
+
+margin-top:20px;
+
+margin-left:20px;
+
+margin: sup direito baixo esq
+
+
+color:
+text-align:left
+text-align:right
+text-align:center
+text-decoration:underline
+text-decoration:overline
+text-decoration:line-through
+text-transform:lowercase
+text-transform:captilise
+=================
+
+soma ao weight 340
+weight:300 px;
+padding:20px;
+box-sizing:border-box;
+
+para isso seletor universal
+*{box-sizing:border-box;
+box-shadow:10px 10px 5px green}
+
+====================
+overflow opacity
+overflow:visible;
+overflow:hidden;//esconde
+overflow:scroll;//duas barras
+overflow:Auto;// onde precisa
+opacity:1:// 100por cento
+opacity:0.5:// 50por cento
+p{font-family:Times,"Times New Roman",serif;font-size:40px}
+unidades relativa:
+
+*{font-size:100%}
+
+p{font-size:1em;}
+
+fontsquirrel baixa fonts
+.ttf
+
+========================
+converter pra web
+generator
+upload
+dowload do kit
+html e csse woff pra web
+@ font-face{
+font-family:open_sans;
+src:url(opensans-regular-webfont.woff);
+
+p{fot-family:open_sans;font-size:2.5em;}
+}
+
+www.google.com/fonts#
+
+disponibiliza fontes exterana do google pra usar
+monta o font family e face
+
+darum use:
+
+<link href='https://fonts.googleapis.com/css?family=Oswald:300,400,700' rel='stylesheet' type='text/css'>
+
+
+font-family: 'Oswald', sans-serif;
+
+<div >
+
+#cores{
+color:red;color:#40b;
+rgba(230,89,225, 0.5);
+hsla(20,100,59%,0.2)//ultimo opacidade
+
+
+gradientes
+
+============================
+background:linear-gradient(to right,45 deg, red,blue, green)}//transicao verm azul
+//do centro
+radial-gradient(red,green)
+
+//flutuar
+<DIV ID:bASE>
+</DIV>
+
+<DIV ID:ESQUERDA>
+</DIV>
+
+<DIV ID:DIREITA>
+</DIV>
+
+float:right
+
+==================================
+
+POSITION
+
+position:absolute;left
+position:fixed;left//de acordo navegador
+
+===================================
+float:left
+===================================
+{border-style:solid
+double
+groove
+ridge
+inset
+outsed
+
+border widht:5px
+border color:red;
+border-left:red;
+outline:dotted 5px green//linha externa 
+nao tem lados
+
+}
+=============================
+
+transition-property:widht;transition duration:2s;
+transition-timing-function:linear;
+
+transaction-delay:1
+transiction: all 2s linear;
+quadrado que cresce
+
+
+================================
+background-image:url(../img/bg.jpg; background-repeatno-repeat
+background-position : left top;
+background-atachment : fixed;//aconha p]barade rola
+background-size 100%,100%;//aconha p]barade rola
+background: url(../img/bg.jpg) center center/100% 100% no-repeat fixed;}
+
+
+
+
+
+)
+
+
+
+#exmplo:hove{width:350px;}
+==========================
